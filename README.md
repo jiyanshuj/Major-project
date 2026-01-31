@@ -1862,10 +1862,9 @@ All projects are open source and available on GitHub:
 
 ## 📞 Support & Documentation
 
-- 📧 **Email:** [support@neurocampus.com](mailto:support@neurocampus.com)
-- 📖 **Documentation:** [docs.neurocampus.com](https://docs.neurocampus.com)
+- 📧 **Email:** [support@neurocampus.com](mailto:jiyanshujain321@gmail.com)
+- 📖 **Documentation:** [docs.neurocampus.com](https://drive.google.com/file/d/1rI2AvFGCsfnrzOSU0oo0BIgSTo4OFwXD/view?usp=sharing)
 - 🐛 **Bug Reports:** [GitHub Issues](https://github.com/Yug-Bothra/NEURO_CAMPUS/issues)
-- 💬 **Discord Community:** [Join our Discord](https://discord.gg/neurocampus)
 - 📱 **Social Media:** Follow us for updates
 
 ---
