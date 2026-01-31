@@ -1571,6 +1571,79 @@ vercel --prod
 |-----------------|-------------|
 | <img src="https://github.com/user-attachments/assets/618e2341-28c9-4286-8628-ad27eefb4e54" width="400" alt="Guest Dashboard" /> | <img src="https://github.com/user-attachments/assets/e5b87f83-a460-41d5-ac2a-b7b9f30811ff" width="400" alt="Campus Tour" /> |
 
+---
+
+### 🚀 Smart Career Guidance System
+
+| Home Page | Authentication |
+|-----------|----------------|
+| ![Home Page](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/home-page.png) | ![Authentication](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Auth.png) |
+| *Landing page with animated background* | *Secure sign-in powered by Clerk* |
+
+| Quiz Configuration | Progress Tracking |
+|-------------------|------------------|
+| ![Quiz Configuration](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Langauge-level.png) | ![Progress Tracking](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Progress-bar.png) |
+| *Select difficulty and language* | *Real-time progress tracking* |
+
+| Quiz Questions | Performance Analysis |
+|---------------|---------------------|
+| ![Quiz Questions](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Questions.png) | ![Performance Analysis](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Performance.png) |
+| *Interactive multiple-choice questions* | *Domain-wise performance visualization* |
+
+---
+
+### 📄 NextStep CV - Resume Generator
+
+| Hero Section | Basic Information |
+|-------------|------------------|
+| ![Hero Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/01-hero-section.png) | ![Basic Information](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/02-resume-form-basic-info.png) |
+| *Landing page with dynamic gradient* | *Resume form - Basic information* |
+
+| Projects Section | Education Section |
+|-----------------|------------------|
+| ![Projects Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/03-projects-section.png) | ![Education Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/04-education-section.png) |
+| *Projects with tech stacks* | *Education details* |
+
+| Work Experience | Skills Section |
+|----------------|---------------|
+| ![Work Experience](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/05-work-experience-certifications.png) | ![Skills Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/06-skills-section.png) |
+| *Work experience and certifications* | *Skills categorization* |
+
+---
+
+### 🎯 AutoSlideX - Presentation Generator
+
+| Home Interface | Slide Preview |
+|---------------|---------------|
+| ![Home Page](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Home.png) | ![Preview](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Preveiw.png) |
+| *Enter topic and slide count* | *Preview slides before downloading* |
+
+| New Slide Creation | Download |
+|-------------------|----------|
+| ![New Slide](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/New-slide.png) | ![Download](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Download.png) |
+| *Create and customize slides* | *Export presentation as PPTX* |
+
+| Final Presentation |
+|-------------------|
+| ![Final PPT](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Final-ppt.png) |
+| *Generated PowerPoint presentation* |
+
+---
+
+### 📝 PaperVista - Exam Paper Generator
+
+| Exam Type Selection | Topic Configuration |
+|--------------------|-------------------|
+| ![Exam Type](https://github.com/jiyanshuj/PaperVista/raw/main/images/Exam-type.png) | ![Topic Configuration](https://github.com/jiyanshuj/PaperVista/raw/main/images/Topic.png) |
+| *Select exam type and course details* | *Configure exam topics and parameters* |
+
+| Dashboard Overview | Print Paper |
+|-------------------|------------|
+| ![Overview](https://github.com/jiyanshuj/PaperVista/raw/main/images/Overveiw.png) | ![Print Paper](https://github.com/jiyanshuj/PaperVista/raw/main/images/Print-paper.png) |
+| *Main dashboard interface* | *Generate and print exam papers* |
+
+---
+
 ### 🗄️ Database Structure
 
 | Complete Database Schema |
