@@ -158,22 +158,22 @@ This workspace contains 8 major applications designed for educational institutio
 - **Document Processing:** python-docx
 
 #### Screenshots
-![Hero Section](Resume%20Gen/images/01-hero-section.png)
+![Hero Section](https://github.com/jiyanshuj/Resume-Gen/images/images/01-hero-section.png)
 *Landing page with dynamic gradient background*
 
-![Basic Information](Resume%20Gen/images/02-resume-form-basic-info.png)
+![Basic Information](https://github.com/jiyanshuj/Resume-Gen/images/images/02-resume-form-basic-info.png)
 *Resume form - Basic information section*
 
-![Projects Section](Resume%20Gen/images/03-projects-section.png)
+![Projects Section](https://github.com/jiyanshuj/Resume-Gen/images/images/03-projects-section.png)
 *Resume form - Projects section*
 
-![Education Section](Resume%20Gen/images/04-education-section.png)
+![Education Section](https://github.com/jiyanshuj/Resume-Gen/images/images/04-education-section.png)
 *Resume form - Education details*
 
-![Work Experience](Resume%20Gen/images/05-work-experience-certifications.png)
+![Work Experience](https://github.com/jiyanshuj/Resume-Gen/images/images/05-work-experience-certifications.png)
 *Resume form - Work experience and certifications*
 
-![Skills Section](Resume%20Gen/images/06-skills-section.png)
+![Skills Section](https://github.com/jiyanshuj/Resume-Gen/images/images/06-skills-section.png)
 *Resume form - Skills categorization*
 
 ---
@@ -455,91 +455,31 @@ Uses ngrok for secure tunneling to Python backend for facial recognition service
 
 ### Smart Career Guidance System
 
-<div align="center">
-
-**Quiz Progress & Analytics**
-
-![Progress Bar](Smart%20Career%20Guidance%20System/images/Progress-bar.png)
-
-Real-time progress tracking with comprehensive quiz attempt history
-
-</div>
-
-<div align="center">
-
-**Performance Visualization**
-
-![Performance Analysis](Smart%20Career%20Guidance%20System/images/Performance.png)
-
-Domain-wise performance breakdown and analytics
-
-</div>
+| | |
+|---|---|
+| ![Progress Bar](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Progress-bar.png) | ![Performance Analysis](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Performance.png) |
+| *Real-time progress tracking* | *Domain-wise performance visualization* |
 
 ### Resume Generator
 
-<div align="center">
-
-**Form Interface**
-
-![Resume Form](Resume%20Gen/images/02-resume-form-basic-info.png)
-
-Intuitive multi-section resume builder
-
-</div>
-
-<div align="center">
-
-**Skills Section**
-
-![Skills](Resume%20Gen/images/06-skills-section.png)
-
-Comprehensive skills categorization and management
-
-</div>
+| | |
+|---|---|
+| ![Resume Form](https://github.com/jiyanshuj/Resume-Gen/images/02-resume-form-basic-info.png) | ![Skills](https://github.com/jiyanshuj/Resume-Gen/images/06-skills-section.png) |
+| *Multi-section resume builder* | *Skills categorization* |
 
 ### AutoSlideX - Presentation Generator
 
-<div align="center">
-
-**Presentation Creation**
-
-![AutoSlideX Home](AutoSlideX/images/Home.png)
-
-AI-powered presentation generation interface
-
-</div>
-
-<div align="center">
-
-**Generated Output**
-
-![Final Presentation](AutoSlideX/images/Final-ppt.png)
-
-Professional PowerPoint presentations created with Gemini AI
-
-</div>
+| | |
+|---|---|
+| ![AutoSlideX Home](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Home.png) | ![Final Presentation](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Final-ppt.png) |
+| *AI presentation generation* | *Professional PowerPoint output* |
 
 ### PaperVista - Exam Paper Generator
 
-<div align="center">
-
-**Exam Configuration**
-
-![Exam Type](PaperVista/images/Exam-type.png)
-
-Configure course details and exam type
-
-</div>
-
-<div align="center">
-
-**Generated Papers**
-
-![Print Paper](PaperVista/images/Print-paper.png)
-
-Ready-to-print exam papers in professional format
-
-</div>
+| | |
+|---|---|
+| ![Exam Type](https://github.com/jiyanshuj/PaperVista/raw/main/images/Exam-type.png) | ![Print Paper](https://github.com/jiyanshuj/PaperVista/raw/main/images/Print-paper.png) |
+| *Exam configuration* | *Ready-to-print papers* |
 
 ---
 
