@@ -26,6 +26,16 @@
 
 An integrated suite of educational applications designed for modern institutions, featuring AI-driven automation, real-time analytics, and seamless user experiences. Each application is production-ready with full-stack implementation.
 
+### 🚀 Quick Access - Live Projects
+
+| Project | Live URL | Type |
+|---------|----------|------|
+| 🎓 **NEURO CAMPUS** | [neuro-campus-73w8.vercel.app](https://neuro-campus-73w8.vercel.app/) | Main Platform |
+| 🚀 **Smart Career Guidance** | [smart-career-guidance-system.vercel.app](https://smart-career-guidance-system.vercel.app/) | Career Assessment |
+| 🎯 **AutoSlideX** | [auto-slide-x.vercel.app](https://auto-slide-x.vercel.app/) | AI Presentation |
+| 📄 **NextStep Resume** | [nextstep-resume.netlify.app](https://nextstep-resume.netlify.app/) | Resume Builder |
+| 📝 **PaperVista** | [paper-vista-five.vercel.app](https://paper-vista-five.vercel.app/) | Exam Generator |
+
 ### Portfolio Highlights
 
 - **8 Production Applications** - Fully deployed and operational
@@ -48,6 +58,8 @@ An integrated suite of educational applications designed for modern institutions
 #### 🌐 Live Demo
 [https://neuro-campus-73w8.vercel.app/](https://neuro-campus-73w8.vercel.app/)
 
+**GitHub Repository:** [Yug-Bothra/NEURO_CAMPUS](https://github.com/Yug-Bothra/NEURO_CAMPUS)
+
 **Demo Credentials:** `22100BTAIMLM11277` / `Yugyug@123`
 
 #### Core Capabilities
@@ -64,8 +76,29 @@ An integrated suite of educational applications designed for modern institutions
 - **Admin Panel** - Complete system oversight
 - **Teacher Panel** - Attendance, evaluation, AI tools
 - **Student Panel** - Attendance, canteen, resume builder, practice tests
-- **Guest Panel** - University info, e-canteen access
+- **Guest Panel** - University info, e-canteen access, virtual tour
 - **Accounts Panel** - Financial management
+
+**Student Panel Features**
+- Real-time attendance tracking
+- E-Canteen ordering system
+- AI-powered resume builder
+- Aptitude test practice
+- AI notes generation
+- Student forum (FORAM)
+- Library access
+- Profile management
+- Payment history
+
+**Guest Panel Features**
+- University information and history
+- E-Canteen menu browsing and ordering
+- Virtual campus tour (360° view)
+- Contact information and support
+- Academic programs overview
+- Facilities showcase
+- Admission information
+- No login required - Direct access
 
 **Core Modules**
 - E-Library | E-Canteen | Student Forum
@@ -381,32 +414,42 @@ cloudinary==1.36.0
 
 ### Live Applications
 
-| Application | URL |
-|------------|-----|
-| **NEURO CAMPUS** | [neuro-campus-73w8.vercel.app](https://neuro-campus-73w8.vercel.app/) |
-| **Career Guidance** | [smart-career-guidance-system.vercel.app](https://smart-career-guidance-system.vercel.app/) |
+| Application | URL | Status |
+|------------|-----|--------|
+| **NEURO CAMPUS** | [neuro-campus-73w8.vercel.app](https://neuro-campus-73w8.vercel.app/) | ✅ Live |
+| **Smart Career Guidance** | [smart-career-guidance-system.vercel.app](https://smart-career-guidance-system.vercel.app/) | ✅ Live |
+| **AutoSlideX** | [auto-slide-x.vercel.app](https://auto-slide-x.vercel.app/) | ✅ Live |
+| **NextStep Resume** | [nextstep-resume.netlify.app](https://nextstep-resume.netlify.app/) | ✅ Live |
+| **PaperVista** | [paper-vista-five.vercel.app](https://paper-vista-five.vercel.app/) | ✅ Live |
 
 ### Demo Accounts
 
-#### Teacher Panel
-```
-Username: T002
-Password: Kamal@123
-```
-
-#### Student Panel (NEURO CAMPUS)
+#### 👨‍🎓 Student Panel (NEURO CAMPUS)
 ```
 Username: 22100BTAIML11253
 Password: Jain@123
 ```
 
-#### Student Panel (Career Guidance)
+**Alternate Student Account:**
 ```
 Username: 22100BTAIMLM11277
 Password: Yugyug@123
 ```
 
-#### Student Forum
+#### 👨‍🏫 Teacher Panel
+```
+Username: T002
+Password: Kamal@123
+```
+
+#### 👥 Guest Panel
+**Access:** No login required - Direct access via NEURO CAMPUS homepage
+- University Information
+- E-Canteen Access
+- Campus Virtual Tour
+- Contact Details
+
+#### 💬 Student Forum (FORAM)
 ```
 Enrollment: 22100BTAIML11253
 Email: [Use your own email]
@@ -602,7 +645,8 @@ CLOUDINARY_API_SECRET=your_api_secret
 | **Frontend Projects** | 5 |
 | **Backend Services** | 3 |
 | **AI Integrations** | 5 |
-| **Live Deployments** | 2+ |
+| **Live Deployments** | 5 |
+| **GitHub Repositories** | 8+ |
 | **Total Dependencies** | 70+ |
 | **Lines of Code** | 50,000+ |
 
@@ -731,6 +775,22 @@ For questions, support, or collaboration:
 
 ---
 
+## 📂 Project Repositories
+
+All projects are open source and available on GitHub:
+
+| Project | Repository | Stars |
+|---------|-----------|-------|
+| **NEURO CAMPUS** | [Yug-Bothra/NEURO_CAMPUS](https://github.com/Yug-Bothra/NEURO_CAMPUS) | ![Stars](https://img.shields.io/github/stars/Yug-Bothra/NEURO_CAMPUS?style=social) |
+| **E-Library** | [Yug-Bothra/Eliberary](https://github.com/Yug-Bothra/Eliberary) | ![Stars](https://img.shields.io/github/stars/Yug-Bothra/Eliberary?style=social) |
+| **E-Canteen** | [Yug-Bothra/project](https://github.com/Yug-Bothra/project) | ![Stars](https://img.shields.io/github/stars/Yug-Bothra/project?style=social) |
+| **Quiz App** | [Yug-Bothra/quizz](https://github.com/Yug-Bothra/quizz) | ![Stars](https://img.shields.io/github/stars/Yug-Bothra/quizz?style=social) |
+| **FORAM (Social)** | [Yug-Bothra/FORAM](https://github.com/Yug-Bothra/FORAM) | ![Stars](https://img.shields.io/github/stars/Yug-Bothra/FORAM?style=social) |
+
+> **Note:** Additional repositories for other projects are available in the organization. Check individual project documentation for links.
+
+---
+
 ## 🙏 Acknowledgments
 
 - **Google AI** - Gemini API for AI capabilities
@@ -743,7 +803,15 @@ For questions, support, or collaboration:
 
 <div align="center">
 
-### ⭐ Star this repository if you find it helpful!
+### ⭐ If you find this portfolio helpful, please star the repositories!
+
+[![NEURO CAMPUS](https://img.shields.io/github/stars/Yug-Bothra/NEURO_CAMPUS?style=social)](https://github.com/Yug-Bothra/NEURO_CAMPUS)
+[![E-Library](https://img.shields.io/github/stars/Yug-Bothra/Eliberary?style=social)](https://github.com/Yug-Bothra/Eliberary)
+[![E-Canteen](https://img.shields.io/github/stars/Yug-Bothra/project?style=social)](https://github.com/Yug-Bothra/project)
+[![Quiz App](https://img.shields.io/github/stars/Yug-Bothra/quizz?style=social)](https://github.com/Yug-Bothra/quizz)
+[![FORAM](https://img.shields.io/github/stars/Yug-Bothra/FORAM?style=social)](https://github.com/Yug-Bothra/FORAM)
+
+---
 
 ### 🌟 Built with Passion Using Modern Technologies
 
@@ -755,12 +823,16 @@ For questions, support, or collaboration:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
 ---
 
-**© 2026 Educational Platform Suite**
+**© 2026 Educational Platform Suite** | **Major Project Portfolio**
 
 *Transforming Education Through AI and Innovation*
+
+**Main Repository:** [github.com/Yug-Bothra/NEURO_CAMPUS](https://github.com/Yug-Bothra/NEURO_CAMPUS)
 
 **[⬆ Back to Top](#-ai-powered-educational-platform-suite)**
 
