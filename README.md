@@ -1547,6 +1547,22 @@ vercel --prod
 |-------------------|-------------------|
 | <img src="https://github.com/user-attachments/assets/7cfa4a32-1b4f-41bd-92cf-28fc67773db3" width="400" alt="Teacher Management" /> | <img src="https://github.com/user-attachments/assets/1dbb6340-3894-4ba6-a8ae-7dea93075461" width="400" alt="Subject Assignment" /> |
 
+---
+
+### 👨‍🏫 Teacher Panel
+
+| Authentication Page | Home Dashboard |
+|--------------------|----------------|
+| ![Auth Page](https://raw.githubusercontent.com/jiyanshuj/teacher-panel/main/images/Auth.png) | ![Home Dashboard](https://raw.githubusercontent.com/jiyanshuj/teacher-panel/main/images/Home.png) |
+| *Secure teacher login with Supabase* | *Main dashboard with quick access* |
+
+| Subject Management | Attendance Tracking |
+|-------------------|-------------------|
+| ![My Subjects](https://raw.githubusercontent.com/jiyanshuj/teacher-panel/main/images/My-subject.png) | ![Attendance](https://raw.githubusercontent.com/jiyanshuj/teacher-panel/main/images/Attendance.png) |
+| *Manage teaching subjects and classes* | *Real-time facial recognition attendance* |
+
+---
+
 ### 🎓 Student Panel
 
 | Student Dashboard | Profile Management |
