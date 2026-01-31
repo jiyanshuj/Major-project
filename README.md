@@ -255,19 +255,19 @@ Uses ngrok for secure tunneling to Python backend for facial recognition service
 - **Document:** python-pptx for PowerPoint generation
 
 #### Screenshots
-![Home Page](AutoSlideX/images/Home.png)
+![Home Page](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Home.png)
 *Main interface - Enter topic and slide count*
 
-![Preview](AutoSlideX/images/Preveiw.png)
+![Preview](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Preveiw.png)
 *Slide preview before downloading*
 
-![New Slide](AutoSlideX/images/New-slide.png)
+![New Slide](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/New-slide.png)
 *Create and customize individual slides*
 
-![Download](AutoSlideX/images/Download.png)
+![Download](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Download.png)
 *Export presentation as PPTX*
 
-![Final PPT](AutoSlideX/images/Final-ppt.png)
+![Final PPT](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Final-ppt.png)
 *Generated PowerPoint presentation*
 
 ---
@@ -299,16 +299,16 @@ Uses ngrok for secure tunneling to Python backend for facial recognition service
 - **Python:** 3.11.9
 
 #### Screenshots
-![Exam Type Selection](PaperVista/images/Exam-type.png)
+![Exam Type Selection](https://github.com/jiyanshuj/PaperVista/raw/main/images/Exam-type.png)
 *Select exam type and specify course details*
 
-![Topic Configuration](PaperVista/images/Topic.png)
+![Topic Configuration](https://github.com/jiyanshuj/PaperVista/raw/main/images/Topic.png)
 *Configure exam topics and parameters*
 
-![Overview](PaperVista/images/Overveiw.png)
+![Overview](https://github.com/jiyanshuj/PaperVista/raw/main/images/Overveiw.png)
 *Main dashboard interface*
 
-![Print Paper](PaperVista/images/Print-paper.png)
+![Print Paper](https://github.com/jiyanshuj/PaperVista/raw/main/images/Print-paper.png)
 *Generate, preview, and print exam papers*
 
 ---
