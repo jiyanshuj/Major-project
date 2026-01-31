@@ -464,7 +464,7 @@ Uses ngrok for secure tunneling to Python backend for facial recognition service
 
 | | |
 |---|---|
-| ![Resume Form](https://github.com/jiyanshuj/Resume-Gen/raw/main/images/02-resume-form-basic-info.png) | ![Skills](https://github.com/jiyanshuj/Resume-Gen/raw/main/images/06-skills-section.png) |
+| ![Resume Form](https://github.com/jiyanshuj/Resume-Gen/images/02-resume-form-basic-info.png) | ![Skills](https://github.com/jiyanshuj/Resume-Gen/images/06-skills-section.png) |
 | *Multi-section resume builder* | *Skills categorization* |
 
 ### AutoSlideX - Presentation Generator
