@@ -158,22 +158,22 @@ This workspace contains 8 major applications designed for educational institutio
 - **Document Processing:** python-docx
 
 #### Screenshots
-![Hero Section](https://github.com/jiyanshuj/Resume-Gen/images/images/01-hero-section.png)
+![Hero Section](https://github.com/jiyanshuj/Resume-Gen/images/01-hero-section.png)
 *Landing page with dynamic gradient background*
 
-![Basic Information](https://github.com/jiyanshuj/Resume-Gen/images/images/02-resume-form-basic-info.png)
+![Basic Information](https://github.com/jiyanshuj/Resume-Gen/images/02-resume-form-basic-info.png)
 *Resume form - Basic information section*
 
-![Projects Section](https://github.com/jiyanshuj/Resume-Gen/images/images/03-projects-section.png)
+![Projects Section](https://github.com/jiyanshuj/Resume-Gen/images/03-projects-section.png)
 *Resume form - Projects section*
 
-![Education Section](https://github.com/jiyanshuj/Resume-Gen/images/images/04-education-section.png)
+![Education Section](https://github.com/jiyanshuj/Resume-Gen/images/04-education-section.png)
 *Resume form - Education details*
 
-![Work Experience](https://github.com/jiyanshuj/Resume-Gen/images/images/05-work-experience-certifications.png)
+![Work Experience](https://github.com/jiyanshuj/Resume-Gen/images/05-work-experience-certifications.png)
 *Resume form - Work experience and certifications*
 
-![Skills Section](https://github.com/jiyanshuj/Resume-Gen/images/images/06-skills-section.png)
+![Skills Section](https://github.com/jiyanshuj/Resume-Gen/images/06-skills-section.png)
 *Resume form - Skills categorization*
 
 ---
