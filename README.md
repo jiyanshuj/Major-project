@@ -108,22 +108,22 @@ This workspace contains 8 major applications designed for educational institutio
 - **Hosting:** Vercel
 
 #### Screenshots
-![Home Page](Smart%20Career%20Guidance%20System/images/home-page.png)
+![Home Page](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/home-page.png)
 *Landing page with animated background and quick navigation*
 
-![Authentication](Smart%20Career%20Guidance%20System/images/Auth.png)
+![Authentication](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Auth.png)
 *Secure sign-in powered by Clerk*
 
-![Quiz Configuration](Smart%20Career%20Guidance%20System/images/Langauge-level.png)
+![Quiz Configuration](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Langauge-level.png)
 *Select difficulty level and programming language*
 
-![Progress Tracking](Smart%20Career%20Guidance%20System/images/Progress-bar.png)
+![Progress Tracking](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Progress-bar.png)
 *Real-time progress tracking and quiz history*
 
-![Quiz Questions](Smart%20Career%20Guidance%20System/images/Questions.png)
+![Quiz Questions](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Questions.png)
 *Interactive multiple-choice questions*
 
-![Performance Analysis](Smart%20Career%20Guidance%20System/images/Performance.png)
+![Performance Analysis](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Performance.png)
 *Domain-wise performance visualization*
 
 ---
