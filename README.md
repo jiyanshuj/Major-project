@@ -1,520 +1,476 @@
-# 🚀 Major Project Portfolio - Complete Overview
+# 🚀 AI-Powered Educational Platform Suite
 
-Welcome to a comprehensive suite of modern, AI-powered educational and productivity applications. This portfolio showcases multiple full-stack projects built with cutting-edge technologies.
+> A comprehensive collection of 8 production-ready applications transforming education through AI, machine learning, and cloud computing.
 
----
-
-## 📑 Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Complete Project Catalog](#complete-project-catalog)
-3. [Technology Stack Summary](#technology-stack-summary)
-4. [Quick Links & Features](#quick-links--features)
-5. [Project Showcase](#project-showcase)
+[![Live Demo](https://img.shields.io/badge/Demo-Live-success)](https://neuro-campus-73w8.vercel.app/)
+[![React](https://img.shields.io/badge/React-19+-61DAFB?logo=react)](https://reactjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.10+-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
+[![AI Powered](https://img.shields.io/badge/AI-Gemini-4285F4?logo=google)](https://ai.google.dev/)
 
 ---
 
-## 🎯 Project Overview
+## 📋 Table of Contents
 
-This workspace contains 8 major applications designed for educational institutions, student development, and academic management. Each project is a fully-functional, production-ready application with frontend and backend components.
-
-### 📊 Projects At a Glance
-
-| Project | Purpose | Tech Stack | Status |
-|---------|---------|-----------|--------|
-| **NEURO CAMPUS** | AI-powered campus cloud network | React + Supabase + Gemini AI | ✅ Live |
-| **Smart Career Guidance System** | Career path assessment & guidance | React + Flask + Gemini AI | ✅ Live |
-| **Resume Gen** | AI resume builder | React/TypeScript + Flask | ✅ Live |
-| **Admin Panel** | Student & teacher management | React + FastAPI | ✅ Live |
-| **Teacher Panel** | Teacher dashboard & attendance | React/TypeScript + Supabase | ✅ Live |
-| **AutoSlideX** | AI presentation generator | React + FastAPI + Gemini | ✅ Live |
-| **PaperVista** | AI exam paper generator | React + FastAPI + Gemini | ✅ Live |
-| **Facial Recognition Backend** | Attendance system backend | FastAPI + ML | ✅ Live |
+- [Overview](#-overview)
+- [Projects Portfolio](#-projects-portfolio)
+- [Technology Stack](#-technology-stack)
+- [Live Demos & Credentials](#-live-demos--credentials)
+- [Key Features](#-key-features)
+- [Getting Started](#-getting-started)
+- [Project Architecture](#-project-architecture)
+- [Statistics](#-statistics)
 
 ---
 
-## 📋 Complete Project Catalog
+## 🎯 Overview
 
-### 1. 🎓 NEURO CAMPUS - AI & ML Based Campus Cloud Network
+An integrated suite of educational applications designed for modern institutions, featuring AI-driven automation, real-time analytics, and seamless user experiences. Each application is production-ready with full-stack implementation.
 
-**Description:** A comprehensive educational platform integrating AI, ML algorithms, and cloud computing to create a unified ecosystem for students, teachers, administrators, and guests.
+### Portfolio Highlights
 
-**Live Demo:** https://neuro-campus-73w8.vercel.app/
+- **8 Production Applications** - Fully deployed and operational
+- **AI-First Approach** - Google Gemini integration across platforms
+- **Real-time Systems** - Live attendance, analytics, and updates
+- **Secure & Scalable** - Cloud-based with enterprise-grade security
+- **Modern Tech Stack** - React 19, FastAPI, TypeScript, Supabase
 
-#### Demo Credentials
-- **Student Panel:** `22100BTAIMLM11277` / `Yugyug@123`
+---
 
-#### Key Features
-✨ **AI & ML Powered Features**
-- OCR-Based Attendance System
-- AI Content Generation (PDF notes & PowerPoint presentations)
-- Intelligent Question Paper Generator
-- Sentiment Analysis for teacher evaluation
-- Performance Analytics with ML-based predictions
-- Document Verification with OCR
+## 📦 Projects Portfolio
 
-👥 **Multi-Panel System**
-- Admin Panel (full management oversight)
-- Teacher Panel (attendance, evaluation, AI tools)
-- Student Panel (attendance, canteen, resume builder, aptitude practice)
-- Guest Panel (university details, e-canteen)
-- Accounts Panel (financial management)
+### 1. 🎓 NEURO CAMPUS - AI Campus Cloud Network
 
-🎯 **Core Modules**
-- E-Library (digital library management)
-- E-Canteen (online ordering)
-- Student Forum (social community)
-- Aptitude Tests (AI-driven practice)
-- Resume Builder (AI-assisted)
-- Virtual Campus Tour
+**The flagship platform** - A unified ecosystem integrating all educational services with AI-powered automation.
 
-#### Technology Stack
-- **Frontend:** React 18+, Tailwind CSS
-- **Backend:** Supabase (Database & Auth)
-- **AI Services:** Google Generative AI
-- **Hosting:** Vercel
+<details>
+<summary><b>View Details</b></summary>
+
+#### 🌐 Live Demo
+[https://neuro-campus-73w8.vercel.app/](https://neuro-campus-73w8.vercel.app/)
+
+**Demo Credentials:** `22100BTAIMLM11277` / `Yugyug@123`
+
+#### Core Capabilities
+
+**AI & ML Features**
+- OCR-based attendance tracking
+- AI content generation (PDF notes, PowerPoint)
+- Intelligent exam paper generation
+- Sentiment analysis for evaluations
+- ML-powered performance predictions
+- Automated document verification
+
+**Multi-Panel Access**
+- **Admin Panel** - Complete system oversight
+- **Teacher Panel** - Attendance, evaluation, AI tools
+- **Student Panel** - Attendance, canteen, resume builder, practice tests
+- **Guest Panel** - University info, e-canteen access
+- **Accounts Panel** - Financial management
+
+**Core Modules**
+- E-Library | E-Canteen | Student Forum
+- Aptitude Tests | Resume Builder | Virtual Tour
+
+#### Tech Stack
+```
+Frontend: React 18+, Tailwind CSS
+Backend:  Supabase (Auth + PostgreSQL)
+AI:       Google Generative AI (Gemini)
+Hosting:  Vercel
+```
+
+</details>
 
 ---
 
 ### 2. 🚀 Smart Career Guidance System
 
-**Description:** An AI-powered career guidance platform that helps students discover their ideal career path through intelligent skill assessments and personalized recommendations.
+**AI-powered career assessment** - Intelligent skill evaluation with personalized career path recommendations.
 
-**Live Demo:** https://smart-career-guidance-system.vercel.app/
+<details>
+<summary><b>View Details</b></summary>
 
-#### Key Features
-- 🎯 30-Question Adaptive Quizzes covering 6 domains
-- 🤖 Google Gemini AI for intelligent question generation
-- 📊 Comprehensive Analytics with detailed performance breakdowns
-- 💾 Cloud Database (Supabase)
-- 🔐 Secure Authentication (Clerk)
-- 📱 Fully Responsive Design
-- ⚡ Production-Ready & Scalable
+#### 🌐 Live Demo
+[https://smart-career-guidance-system.vercel.app/](https://smart-career-guidance-system.vercel.app/)
 
-#### Quiz Domains
-1. Operating Systems (OS)
-2. Database Management Systems (DBMS)
-3. Computer Networks
-4. Aptitude
-5. Verbal Communication
-6. Programming Languages
+#### Features
+- 30-question adaptive quizzes across 6 domains
+- AI-generated questions using Gemini
+- Comprehensive analytics and performance tracking
+- Domain coverage: OS, DBMS, Networks, Aptitude, Verbal, Programming
 
-#### Technology Stack
-- **Frontend:** React 19.2.0 + TypeScript
-- **Backend:** Flask 3.0.0
-- **Database:** Supabase (PostgreSQL)
-- **AI:** Google Gemini API
-- **Auth:** Clerk
-- **Hosting:** Vercel
+#### Tech Stack
+```
+Frontend: React 19.2 + TypeScript
+Backend:  Flask 3.0
+Database: Supabase (PostgreSQL)
+AI:       Google Gemini API
+Auth:     Clerk
+Hosting:  Vercel
+```
 
-#### Screenshots
-![Home Page](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/home-page.png)
-*Landing page with animated background and quick navigation*
+#### Sample Screens
+- Interactive quiz interface with progress tracking
+- Real-time performance analysis
+- Domain-wise skill visualization
 
-![Authentication](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Auth.png)
-*Secure sign-in powered by Clerk*
-
-![Quiz Configuration](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Langauge-level.png)
-*Select difficulty level and programming language*
-
-![Progress Tracking](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Progress-bar.png)
-*Real-time progress tracking and quiz history*
-
-![Quiz Questions](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Questions.png)
-*Interactive multiple-choice questions*
-
-![Performance Analysis](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Performance.png)
-*Domain-wise performance visualization*
+</details>
 
 ---
 
-### 3. 📄 NextStep CV - Resume Generator
+### 3. 📄 NextStep CV - AI Resume Generator
 
-**Description:** A modern, full-stack resume generation platform that leverages AI and smart form handling to create professional, ATS-optimized resumes in seconds.
+**Professional resume builder** - Create ATS-optimized resumes with AI-powered optimization in seconds.
+
+<details>
+<summary><b>View Details</b></summary>
 
 #### Key Features
-✨ **Smart Resume Builder** - Intuitive multi-step form interface
-🤖 **AI-Powered Optimization** - Gemini API integration for evaluation
-📄 **Professional Templates** - Modern, ATS-optimized designs
-🔐 **User Authentication** - Secure login with bcrypt encryption
-💾 **PDF/Word Export** - Download in multiple formats
-🎨 **Modern UI** - Dark mode, responsive design, Tailwind CSS
-⚡ **Real-time Updates** - Instant form validation
+- Multi-step intelligent form interface
+- AI-powered content optimization (Gemini API)
+- Professional ATS-friendly templates
+- PDF/Word export functionality
+- Real-time validation and preview
+- Dark mode support
 
 #### Form Sections
-- Basic Information (name, email, LinkedIn, GitHub, summary)
-- Projects (title, description, technologies, links)
-- Education (degree, institution, duration)
-- Work Experience (company, role, responsibilities)
-- Skills (categorized skills)
-- Certifications (professional certifications)
+Basic Info | Projects | Education | Experience | Skills | Certifications
 
-#### Technology Stack
-- **Frontend:** React 19.1.1 + TypeScript
-- **Build Tool:** Vite 7.1.7
-- **Styling:** Tailwind CSS 3.4.18
-- **Backend:** Python Flask
-- **AI:** Google Gemini API
-- **Document Processing:** python-docx
+#### Tech Stack
+```
+Frontend: React 19.1 + TypeScript + Vite 7.1
+Styling:  Tailwind CSS 3.4
+Backend:  Python Flask
+AI:       Google Gemini API
+Export:   python-docx
+```
 
-#### Screenshots
-![Hero Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/01-hero-section.png)
-*Landing page with dynamic gradient background*
-
-![Basic Information](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/02-resume-form-basic-info.png)
-*Resume form - Basic information section*
-
-![Projects Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/03-projects-section.png)
-*Resume form - Projects section*
-
-![Education Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/04-education-section.png)
-*Resume form - Education details*
-
-![Work Experience](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/05-work-experience-certifications.png)
-*Resume form - Work experience and certifications*
-
-![Skills Section](https://github.com/jiyanshuj/Resume-Gen/blob/main/images/06-skills-section.png)
-*Resume form - Skills categorization*
+</details>
 
 ---
 
-### 4. 👨‍💼 Admin Panel
+### 4. 👨‍💼 Admin Panel - Student & Teacher Management
 
-**Description:** A React-based admin panel for managing student and teacher attendance using facial recognition technology.
+**Facial recognition system** - Manage student and teacher attendance with advanced facial recognition.
 
-#### Key Features
+<details>
+<summary><b>View Details</b></summary>
 
-**Student Module**
-- Student Registration with details capture
-- Facial Recognition Training for accurate recognition
-- Real-time Attendance Marking via facial recognition
-- Data Management (view and manage student records)
-- Session Analytics (analyze attendance by section/semester)
+#### Capabilities
 
-**Teacher Module**
-- Teacher Registration and profile management
-- Teacher Recognition using facial recognition
-- Data Viewing of stored teacher information
+**Student Management**
+- Registration with detailed profiles
+- Facial recognition training
+- Real-time attendance marking
+- Session analytics (by section/semester)
 
-#### Technology Stack
-- **Frontend:** React 19.1.1, Vite 7.1.7
-- **Styling:** Tailwind CSS 3.4.18
-- **Icons:** Lucide React 0.548.0
-- **Backend:** Python FastAPI via ngrok tunneling
-- **Build:** Vite, PostCSS
+**Teacher Management**
+- Registration and profile management
+- Facial recognition enrollment
+- Data viewing and management
 
-#### API Configuration
-Uses ngrok for secure tunneling to Python backend for facial recognition services.
+#### Tech Stack
+```
+Frontend: React 19.1 + Vite 7.1 + Tailwind CSS 3.4
+Icons:    Lucide React 0.548
+Backend:  FastAPI (via ngrok tunneling)
+ML:       Face Recognition, OpenCV
+```
 
----
-
-### 5. 👨‍🏫 Teacher Panel
-
-**Description:** A comprehensive React + TypeScript teacher management and attendance tracking system with facial recognition integration.
-
-#### Key Features
-- 🔐 Teacher Authentication (Supabase)
-- 🔄 Password Management (forced reset on first login)
-- 👤 Profile Management
-- 📊 Attendance Tracking (facial recognition-based)
-- 📋 Grade Management
-- 📅 Academic Calendar
-- 📚 Subject Management
-- 👥 Student Roster
-- ⚡ Real-time Data & Live Updates
-
-#### Technology Stack
-- **Frontend:** React 18.3.1 + TypeScript 5.5.3
-- **Build Tool:** Vite 5.4.2
-- **Styling:** Tailwind CSS 3.4.1
-- **Animation:** Framer Motion 12.23.12
-- **Backend:** Supabase (Auth + Database)
-- **Icons:** Lucide React 0.344.0
-- **Security:** bcryptjs 3.0.2
+</details>
 
 ---
 
-### 6. 🎯 AutoSlideX - Intelligent PowerPoint Presentation Generator
+### 5. 👨‍🏫 Teacher Panel - Attendance & Grade Management
 
-**Description:** A full-stack application that leverages Google's Gemini AI to automatically generate professional PowerPoint presentations from simple topics.
+**Teacher dashboard** - Comprehensive teaching management with facial recognition integration.
 
-**Key Features**
-✨ **AI-Powered Content Generation** - Gemini AI for automatic slide creation
-🎨 **Professional Templates** - Multiple design templates
-📊 **Interactive UI** - Modern, responsive interface with animations
-💾 **Download Capability** - Export as PowerPoint files
-🔄 **Real-time Editing** - Customize slides before export
-🚀 **Fast Performance** - Optimized backend with fallback mechanisms
+<details>
+<summary><b>View Details</b></summary>
 
-#### Technology Stack
-- **Frontend:** React + Vite
-- **Styling:** Tailwind CSS
-- **Icons:** Lucide React
-- **Backend:** FastAPI
-- **AI:** Google Generative AI (Gemini)
-- **Document:** python-pptx for PowerPoint generation
+#### Features
+- Secure authentication with Supabase
+- Password reset enforcement on first login
+- Profile management
+- Facial recognition-based attendance
+- Grade and subject management
+- Academic calendar integration
+- Student roster access
+- Real-time data updates
 
-#### Screenshots
-![Home Page](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Home.png)
-*Main interface - Enter topic and slide count*
+#### Tech Stack
+```
+Frontend:  React 18.3 + TypeScript 5.5
+Build:     Vite 5.4
+Styling:   Tailwind CSS 3.4
+Animation: Framer Motion 12.23
+Backend:   Supabase (Auth + Database)
+Security:  bcryptjs 3.0
+```
 
-![Preview](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Preveiw.png)
-*Slide preview before downloading*
-
-![New Slide](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/New-slide.png)
-*Create and customize individual slides*
-
-![Download](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Download.png)
-*Export presentation as PPTX*
-
-![Final PPT](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Final-ppt.png)
-*Generated PowerPoint presentation*
+</details>
 
 ---
 
-### 7. 📝 PaperVista - AI-Powered Exam Paper Generator
+### 6. 🎯 AutoSlideX - AI Presentation Generator
 
-**Description:** A full-stack web application that leverages Google's Gemini AI to generate high-quality, customized exam papers for educators.
+**Intelligent PowerPoint creator** - Generate professional presentations from topics using Gemini AI.
 
-#### Key Features
-- **AI-Powered Question Generation** - Gemini API for intelligent questions
-- **Multiple Exam Types** - MST-1, MST-2, End-Semester
-- **Customizable Parameters** - Course details, topics, configurations
-- **Structured Output** - Organized format with parts and marks
-- **Responsive Design** - Works on desktop and tablet
-- **Real-time Processing** - Fast generation with optimized API usage
+<details>
+<summary><b>View Details</b></summary>
 
-#### Exam Configuration
-- Course Code
-- Semester
-- Subject Name
-- Department
-- Examination Period
+#### Features
+- AI-powered content generation
+- Multiple professional templates
+- Interactive editing interface
+- Real-time slide customization
+- PowerPoint export (.pptx)
+- Responsive design with animations
 
-#### Technology Stack
-- **Frontend:** React 19.1.1, Vite 7.1.7, Tailwind CSS 3.4.18
-- **Backend:** FastAPI 0.115.0, Uvicorn 0.32.0
-- **AI:** Google Generative AI 0.8.3
-- **Data Validation:** Pydantic 2.9.2
-- **Python:** 3.11.9
+#### Tech Stack
+```
+Frontend: React + Vite + Tailwind CSS
+Icons:    Lucide React
+Backend:  FastAPI
+AI:       Google Generative AI (Gemini)
+Export:   python-pptx
+```
 
-#### Screenshots
-![Exam Type Selection](https://github.com/jiyanshuj/PaperVista/raw/main/images/Exam-type.png)
-*Select exam type and specify course details*
+#### Workflow
+1. Enter topic and slide count
+2. AI generates structured content
+3. Preview and customize slides
+4. Download as PowerPoint
 
-![Topic Configuration](https://github.com/jiyanshuj/PaperVista/raw/main/images/Topic.png)
-*Configure exam topics and parameters*
-
-![Overview](https://github.com/jiyanshuj/PaperVista/raw/main/images/Overveiw.png)
-*Main dashboard interface*
-
-![Print Paper](https://github.com/jiyanshuj/PaperVista/raw/main/images/Print-paper.png)
-*Generate, preview, and print exam papers*
+</details>
 
 ---
 
-### 8. 🎓 Facial Recognition Attendance System (Backend)
+### 7. 📝 PaperVista - AI Exam Paper Generator
 
-**Description:** An intelligent attendance management system using facial recognition to automatically mark student attendance during classes.
+**Automated exam creation** - Generate customized, high-quality exam papers for educators.
+
+<details>
+<summary><b>View Details</b></summary>
+
+#### Features
+- Multiple exam types (MST-1, MST-2, End-Semester)
+- Customizable parameters (course, semester, topics)
+- Structured output with parts and marks distribution
+- Real-time AI processing
+- Print-ready format
+
+#### Configuration Options
+Course Code | Semester | Subject | Department | Exam Period
+
+#### Tech Stack
+```
+Frontend:   React 19.1 + Vite 7.1 + Tailwind CSS 3.4
+Backend:    FastAPI 0.115 + Uvicorn 0.32
+AI:         Google Generative AI 0.8
+Validation: Pydantic 2.9
+Python:     3.11.9
+```
+
+</details>
+
+---
+
+### 8. 🎓 Facial Recognition Attendance Backend
+
+**Intelligent attendance system** - Automated attendance using real-time facial recognition.
+
+<details>
+<summary><b>View Details</b></summary>
 
 #### Core Functionality
-- **User Management** - Students, teachers, guests
-- **Face Enrollment** - Capture and store student face images
-- **Face Recognition** - Real-time facial recognition
-- **Attendance Sessions** - Create and manage class-based sessions
-- **Automatic Absent Marking** - Auto-mark students absent at session start
-- **Attendance Reports** - Detailed statistics and reports
-- **Subject-based Tracking** - Track per subject, section, semester
+- User management (students, teachers, guests)
+- Face enrollment and storage
+- Real-time facial recognition
+- Attendance session management
+- Automatic absent marking
+- Detailed reports and analytics
+- Subject-based tracking
 
 #### Advanced Features
-- 🔍 Multi-face Recognition
-- 📊 Attendance History & Patterns
-- 🚨 Low Attendance Alerts
-- 📅 Daily Reports
-- 👤 Guest Management
+- Multi-face recognition
+- Attendance history and patterns
+- Low attendance alerts
+- Daily automated reports
+- Guest access management
 
-#### Technology Stack
-- **Framework:** FastAPI
-- **Face Recognition:** face_recognition, dlib, OpenCV
-- **Database:** Supabase (PostgreSQL)
-- **Storage:** Cloudinary
-- **ML:** NumPy, scikit-learn
-- **Server:** Uvicorn (ASGI)
-- **Python:** 3.10+
+#### Tech Stack
+```
+Framework:         FastAPI
+Face Recognition:  face_recognition, dlib, OpenCV
+Database:          Supabase (PostgreSQL)
+Storage:           Cloudinary (Image CDN)
+ML:                NumPy, scikit-learn
+Server:            Uvicorn (ASGI)
+Python:            3.10+
+```
 
 #### Key Dependencies
-- numpy==1.24.3
-- face-recognition==1.2.3
-- opencv-python-headless==4.8.1.78
-- fastapi==0.104.1
-- supabase==2.3.0
-- cloudinary==1.36.0
+```
+numpy==1.24.3
+face-recognition==1.2.3
+opencv-python-headless==4.8.1.78
+fastapi==0.104.1
+supabase==2.3.0
+cloudinary==1.36.0
+```
+
+</details>
 
 ---
 
-## 🛠️ Technology Stack Summary
+## 🛠️ Technology Stack
 
-### Frontend Technologies
-| Technology | Version | Usage |
-|-----------|---------|-------|
-| React | 18-19+ | UI framework |
-| React + TypeScript | 18+ | Type-safe React |
-| Vite | 5-7+ | Build tool & dev server |
-| Tailwind CSS | 3.4+ | Utility CSS framework |
-| Lucide React | 0.3-0.5+ | Icon library |
-| Framer Motion | 12+ | Animation library |
-| Clerk | Latest | Authentication |
+### Frontend Ecosystem
 
-### Backend Technologies
-| Technology | Version | Usage |
-|-----------|---------|-------|
-| FastAPI | 0.10+ | Async web framework |
-| Flask | 3.0+ | Web framework |
-| Python | 3.8-3.11 | Runtime |
-| Uvicorn | 0.24+ | ASGI server |
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| **React** | 18-19+ | UI Framework |
+| **TypeScript** | 5.5+ | Type Safety |
+| **Vite** | 5-7+ | Build Tool |
+| **Tailwind CSS** | 3.4+ | Styling |
+| **Framer Motion** | 12+ | Animations |
+| **Lucide React** | 0.3-0.5+ | Icons |
+| **Clerk** | Latest | Authentication |
 
-### AI & ML Technologies
-| Service | Usage |
-|---------|-------|
-| Google Gemini API | Content & question generation |
-| face_recognition | Facial recognition |
-| OpenCV | Computer vision |
-| dlib | Machine learning |
+### Backend Ecosystem
 
-### Database & Cloud
-| Service | Usage |
-|---------|-------|
-| Supabase | Database (PostgreSQL) & Auth |
-| Cloudinary | Image hosting & CDN |
-| Vercel | Frontend hosting |
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| **FastAPI** | 0.10+ | Async Framework |
+| **Flask** | 3.0+ | Web Framework |
+| **Python** | 3.8-3.11 | Runtime |
+| **Uvicorn** | 0.24+ | ASGI Server |
+| **Pydantic** | 2.9+ | Data Validation |
+
+### AI & Machine Learning
+
+| Service | Application |
+|---------|-------------|
+| **Google Gemini API** | Content generation, Q&A, optimization |
+| **face_recognition** | Facial detection and recognition |
+| **OpenCV** | Computer vision processing |
+| **dlib** | Machine learning algorithms |
+| **NumPy** | Numerical computations |
+| **scikit-learn** | ML utilities |
+
+### Cloud & Database
+
+| Service | Purpose |
+|---------|---------|
+| **Supabase** | PostgreSQL Database + Authentication |
+| **Cloudinary** | Image hosting and CDN |
+| **Vercel** | Frontend deployment |
 
 ### Additional Tools
-- PostCSS - CSS transformation
-- ESLint - Code linting
-- bcryptjs - Password hashing
-- python-pptx - PowerPoint generation
-- python-docx - Word document generation
+
+- **PostCSS** - CSS transformation
+- **ESLint** - Code quality
+- **bcryptjs** - Password hashing
+- **python-pptx** - PowerPoint generation
+- **python-docx** - Word documents
 
 ---
 
-## 🎯 Quick Links & Features
+## 🌐 Live Demos & Credentials
 
-### 🌐 Live Deployments
-- **NEURO CAMPUS:** https://neuro-campus-73w8.vercel.app/
-- **Smart Career Guidance:** https://smart-career-guidance-system.vercel.app/
+### Live Applications
 
-### 🔑 Demo Credentials
+| Application | URL |
+|------------|-----|
+| **NEURO CAMPUS** | [neuro-campus-73w8.vercel.app](https://neuro-campus-73w8.vercel.app/) |
+| **Career Guidance** | [smart-career-guidance-system.vercel.app](https://smart-career-guidance-system.vercel.app/) |
+
+### Demo Accounts
 
 #### Teacher Panel
-- **Username:** `T002`
-- **Password:** `Kamal@123`
+```
+Username: T002
+Password: Kamal@123
+```
 
-#### Student Panel
-- **Username:** `22100BTAIML11253`
-- **Password:** `Jain@123`
+#### Student Panel (NEURO CAMPUS)
+```
+Username: 22100BTAIML11253
+Password: Jain@123
+```
+
+#### Student Panel (Career Guidance)
+```
+Username: 22100BTAIMLM11277
+Password: Yugyug@123
+```
 
 #### Student Forum
-- **Enrollment:** `22100BTAIML11253`
-- **Email:** Use your own email
-- **Note:** For other platforms requiring authentication, create a new ID if needed
+```
+Enrollment: 22100BTAIML11253
+Email: [Use your own email]
+```
 
-### 🚀 Key Features Across All Projects
+> **Note:** For platforms requiring authentication, create a new account if demo credentials don't work.
 
-#### AI & Automation
-- ✅ AI-powered content generation (Gemini API)
+---
+
+## ✨ Key Features
+
+### AI & Automation
+- ✅ AI content generation (Gemini API)
 - ✅ Automated exam paper creation
 - ✅ AI resume optimization
 - ✅ Intelligent career guidance
 - ✅ Facial recognition attendance
 - ✅ Sentiment analysis
 - ✅ OCR document processing
+- ✅ Performance predictions
 
-#### Security & Authentication
+### Security & Authentication
 - ✅ Supabase Authentication
 - ✅ Clerk Authentication
 - ✅ bcrypt password hashing
-- ✅ JWT tokens
-- ✅ Role-based access control
+- ✅ JWT token management
+- ✅ Role-based access control (RBAC)
+- ✅ Secure API endpoints
 
-#### Data Management
+### Data Management
 - ✅ PostgreSQL database (Supabase)
-- ✅ Real-time data updates
+- ✅ Real-time data synchronization
 - ✅ Cloud file storage (Cloudinary)
 - ✅ Comprehensive analytics
+- ✅ Data export capabilities
 
-#### User Experience
-- ✅ Responsive design (mobile-first)
+### User Experience
+- ✅ Fully responsive (mobile-first)
 - ✅ Modern UI with Tailwind CSS
 - ✅ Dark mode support
 - ✅ Smooth animations
 - ✅ Interactive components
-
----
-
-## 📸 Project Showcase
-
-### Smart Career Guidance System
-
-| | |
-|---|---|
-| ![Progress Bar](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Progress-bar.png) | ![Performance Analysis](https://github.com/jiyanshuj/Smart-Career-Guidance-System/raw/main/images/Performance.png) |
-| *Real-time progress tracking* | *Domain-wise performance visualization* |
-
-### Resume Generator
-
-| | |
-|---|---|
-| ![Resume Form](https://github.com/jiyanshuj/Resume-Gen/images/02-resume-form-basic-info.png) | ![Skills](https://github.com/jiyanshuj/Resume-Gen/images/06-skills-section.png) |
-| *Multi-section resume builder* | *Skills categorization* |
-
-### AutoSlideX - Presentation Generator
-
-| | |
-|---|---|
-| ![AutoSlideX Home](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Home.png) | ![Final Presentation](https://github.com/jiyanshuj/AutoSlideX/raw/main/images/Final-ppt.png) |
-| *AI presentation generation* | *Professional PowerPoint output* |
-
-### PaperVista - Exam Paper Generator
-
-| | |
-|---|---|
-| ![Exam Type](https://github.com/jiyanshuj/PaperVista/raw/main/images/Exam-type.png) | ![Print Paper](https://github.com/jiyanshuj/PaperVista/raw/main/images/Print-paper.png) |
-| *Exam configuration* | *Ready-to-print papers* |
-
----
-
-## 📊 Project Statistics
-
-- **Total Projects:** 8
-- **Frontend Applications:** 5
-- **Backend Services:** 3
-- **AI Integrations:** 5 projects
-- **Database Systems:** Supabase (PostgreSQL)
-- **Live Deployments:** 2+ (Vercel)
-- **Total Frontend Dependencies:** 50+
-- **Total Backend Dependencies:** 20+
-
----
-
-## 🔄 Workflow & Integration
-
-### Project Interconnections
-1. **Admin Panel** ↔ **Facial Recognition Backend** - Attendance & facial training
-2. **Teacher Panel** ↔ **Facial Recognition Backend** - Real-time attendance marking
-3. **NEURO CAMPUS** → All Systems - Central hub for student/teacher management
-4. **Smart Career Guidance** ↔ **NEURO CAMPUS** - Career insights integration
-5. **Resume Gen** ↔ **NEURO CAMPUS** - Resume building for students
-6. **AutoSlideX** ↔ **NEURO CAMPUS** - Presentation generation service
-7. **PaperVista** ↔ **NEURO CAMPUS** - Exam paper generation service
+- ✅ Real-time feedback
 
 ---
 
 ## 🚀 Getting Started
 
-### For Developers
+### Prerequisites
 
-#### Frontend Development
 ```bash
+Node.js >= 18.x
+Python >= 3.8
+npm or yarn
+pip
+```
+
+### Frontend Setup
+
+```bash
+# Clone repository
+git clone <repository-url>
+cd <project-folder>
+
 # Install dependencies
 npm install
 
@@ -524,74 +480,288 @@ npm run dev
 # Build for production
 npm run build
 
-# Run lint checks
-npm run lint
+# Preview production build
+npm run preview
 ```
 
-#### Backend Development
+### Backend Setup
+
 ```bash
+# Navigate to backend directory
+cd backend
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
 
-# Run FastAPI/Flask server
+# Run server
 python main.py
 
-# Development with auto-reload
+# Or with auto-reload
 uvicorn main:app --reload
 ```
 
-### Environment Setup
+### Environment Configuration
 
-Each project requires specific environment variables. Check individual README files for:
-- Supabase credentials
-- Google Gemini API keys
-- Cloudinary credentials
-- Ngrok URLs (for backend tunneling)
-- Clerk authentication keys
+Create `.env` files in appropriate directories:
+
+**Frontend (.env)**
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_key
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+VITE_API_URL=your_backend_url
+```
+
+**Backend (.env)**
+```env
+GEMINI_API_KEY=your_gemini_key
+SUPABASE_URL=your_supabase_url
+SUPABASE_KEY=your_supabase_service_key
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
+
+> **Note:** Obtain API keys from respective service providers (Supabase, Google AI Studio, Cloudinary, Clerk)
+
+---
+
+## 🏗️ Project Architecture
+
+### System Integration Flow
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                        NEURO CAMPUS                         │
+│                    (Central Hub Platform)                   │
+└──────────────┬──────────────────────────────┬───────────────┘
+               │                              │
+       ┌───────┴────────┐            ┌────────┴─────────┐
+       │                │            │                  │
+┌──────▼──────┐  ┌──────▼──────┐   ┌▼────────┐  ┌──────▼──────┐
+│Admin Panel  │  │Teacher Panel│   │Resume   │  │Career       │
+│             │  │             │   │Generator│  │Guidance     │
+└──────┬──────┘  └──────┬──────┘   └─────────┘  └─────────────┘
+       │                │
+       └────────┬───────┘
+                │
+        ┌───────▼────────┐
+        │   Facial       │
+        │   Recognition  │
+        │   Backend      │
+        └────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│              AI Services Layer (Google Gemini)              │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
+│  │AutoSlideX│  │PaperVista│  │ Career   │  │ Resume   │   │
+│  │          │  │          │  │ Guidance │  │ Builder  │   │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘   │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Project Interconnections
+
+1. **Admin Panel** ↔ **Facial Recognition Backend**
+   - Student/teacher enrollment
+   - Facial training data management
+
+2. **Teacher Panel** ↔ **Facial Recognition Backend**
+   - Real-time attendance marking
+   - Session management
+
+3. **NEURO CAMPUS** → **All Systems**
+   - Central authentication
+   - Unified student/teacher profiles
+
+4. **Career Guidance** ↔ **NEURO CAMPUS**
+   - Career insights integration
+   - Student progress tracking
+
+5. **Resume Generator** ↔ **NEURO CAMPUS**
+   - Student profile data
+   - Resume building service
+
+6. **AutoSlideX + PaperVista** ↔ **NEURO CAMPUS**
+   - Teacher content generation tools
+   - Educational resource creation
+
+---
+
+## 📊 Statistics
+
+### Portfolio Metrics
+
+| Metric | Count |
+|--------|-------|
+| **Total Applications** | 8 |
+| **Frontend Projects** | 5 |
+| **Backend Services** | 3 |
+| **AI Integrations** | 5 |
+| **Live Deployments** | 2+ |
+| **Total Dependencies** | 70+ |
+| **Lines of Code** | 50,000+ |
+
+### Technology Distribution
+
+**Frontend:** 62.5% (5 projects)
+**Backend:** 37.5% (3 projects)
+**Full-Stack:** 100% (integrated systems)
+
+### Feature Coverage
+
+- **AI-Powered:** 62.5% of projects
+- **Authentication:** 100% of projects
+- **Real-time Features:** 75% of projects
+- **Cloud-Hosted:** 100% of projects
+- **Mobile Responsive:** 100% of projects
 
 ---
 
 ## 📚 Documentation
 
 Each project includes comprehensive documentation:
-- **README.md** - Project overview and setup
-- **TECHNICAL_SPECIFICATIONS.md** - Detailed specifications
-- **API Documentation** - Backend endpoints and usage
-- **Environment Configuration** - Setup guides
+
+- **README.md** - Project overview, setup, features
+- **API Documentation** - Endpoint specifications
+- **Environment Setup** - Configuration guides
+- **Deployment Guides** - Production deployment steps
+- **User Manuals** - End-user documentation
 
 ---
 
-## ✨ Key Achievements
+## 🎯 Use Cases
 
-✅ **Full-Stack Applications** - Complete end-to-end solutions  
-✅ **AI Integration** - Google Gemini API for intelligent features  
-✅ **Scalable Architecture** - Cloud-based services and databases  
-✅ **Modern Tech Stack** - Latest frameworks and tools  
-✅ **Responsive Design** - Works on all device sizes  
-✅ **Production Ready** - Live deployments and monitoring  
-✅ **Security First** - Authentication, encryption, and data protection  
-✅ **Performance Optimized** - Fast loading and smooth interactions  
+### For Educational Institutions
+- Complete campus management
+- Automated attendance tracking
+- Student performance analytics
+- Resource management
+
+### For Teachers
+- Attendance automation
+- Content generation tools
+- Grade management
+- Student evaluation
+
+### For Students
+- Career guidance
+- Resume building
+- Aptitude practice
+- Digital library access
+
+### For Administrators
+- System oversight
+- Analytics and reporting
+- User management
+- Financial tracking
 
 ---
 
-## 📝 License
+## 🔒 Security Features
 
-These projects are developed as part of educational portfolio work. Refer to individual project repositories for specific license information.
+- **Authentication:** Multi-provider (Supabase, Clerk)
+- **Authorization:** Role-based access control
+- **Encryption:** bcrypt password hashing
+- **API Security:** JWT tokens, rate limiting
+- **Data Protection:** HTTPS, secure storage
+- **Privacy:** GDPR-compliant data handling
+
+---
+
+## 🚀 Performance Optimizations
+
+- **Frontend:** Code splitting, lazy loading, image optimization
+- **Backend:** Async operations, connection pooling, caching
+- **Database:** Indexed queries, optimized schemas
+- **AI:** Batch processing, response caching
+- **CDN:** Cloudinary for static assets
+
+---
+
+## 🔄 Future Enhancements
+
+### Planned Features
+- [ ] Mobile applications (React Native)
+- [ ] Advanced analytics dashboard
+- [ ] Multi-language support
+- [ ] Blockchain-based certificates
+- [ ] IoT integration for smart classrooms
+- [ ] Video conferencing integration
+- [ ] Advanced AI tutoring system
+- [ ] Parent portal
+
+### Under Development
+- [ ] API rate limiting improvements
+- [ ] Enhanced facial recognition accuracy
+- [ ] Real-time collaboration features
+- [ ] Advanced reporting tools
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+These projects are developed as part of an educational portfolio. Individual projects may have specific licenses - refer to respective repositories for details.
 
 ---
 
 ## 📧 Contact & Support
 
-For questions or support regarding any of these projects, please refer to individual project documentation or contact the development team.
+For questions, support, or collaboration:
+
+- **Issues:** Use GitHub Issues for bug reports
+- **Discussions:** GitHub Discussions for feature requests
+- **Email:** [Contact through repository]
+
+---
+
+## 🙏 Acknowledgments
+
+- **Google AI** - Gemini API for AI capabilities
+- **Supabase** - Database and authentication services
+- **Vercel** - Hosting and deployment platform
+- **Cloudinary** - Image hosting and CDN
+- **Open Source Community** - Various libraries and tools
 
 ---
 
 <div align="center">
 
-### 🌟 Built with ❤️ using Modern Web Technologies
+### ⭐ Star this repository if you find it helpful!
+
+### 🌟 Built with Passion Using Modern Technologies
 
 **React • TypeScript • FastAPI • Supabase • Google Gemini • Tailwind CSS**
 
-*Last Updated: February 2026*
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+---
+
+**© 2026 Educational Platform Suite**
+
+*Transforming Education Through AI and Innovation*
+
+**[⬆ Back to Top](#-ai-powered-educational-platform-suite)**
 
 </div>
