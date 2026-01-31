@@ -404,7 +404,19 @@ Uses ngrok for secure tunneling to Python backend for facial recognition service
 - **Smart Career Guidance:** https://smart-career-guidance-system.vercel.app/
 
 ### 🔑 Demo Credentials
-- **Student (NEURO CAMPUS):** Roll No: `22100BTAIMLM11277`, Password: `Yugyug@123`
+
+#### Teacher Panel
+- **Username:** `T002`
+- **Password:** `Kamal@123`
+
+#### Student Panel
+- **Username:** `22100BTAIML11253`
+- **Password:** `Jain@123`
+
+#### Student Forum
+- **Enrollment:** `22100BTAIML11253`
+- **Email:** Use your own email
+- **Note:** For other platforms requiring authentication, create a new ID if needed
 
 ### 🚀 Key Features Across All Projects
 
