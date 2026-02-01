@@ -1613,18 +1613,6 @@ vercel --prod
 
 ---
 
-### 🧠 Aptitude & Testing
-
-| Aptitude Dashboard | Test Interface |
-|-------------------|----------------|
-| <img src="https://github.com/user-attachments/assets/f7ef006d-546f-4b60-a097-6d1e3d68e39d" width="400" alt="Aptitude Dashboard" /> | <img src="https://github.com/user-attachments/assets/12a70a2f-f202-4a4c-8575-84a72931ce59" width="400" alt="Test Interface" /> |
-
-| Results Analysis | Performance Tracking |
-|-----------------|---------------------|
-| <img src="https://github.com/user-attachments/assets/5fe0d510-965d-49e4-b74b-78c082b59958" width="400" alt="Results Analysis" /> | <img src="https://github.com/user-attachments/assets/90d4b048-0d11-4ea9-baef-f5f7fecfa07d" width="400" alt="Performance Tracking" /> |
-
----
-
 ### 👥 Guest Panel
 
 | Guest Dashboard | University Information |
