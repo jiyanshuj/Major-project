@@ -119,7 +119,7 @@ An integrated **Student Campus Cloud Network** featuring a unified ecosystem wit
 
 **Attendance Management**
 - ✅ **Smart Attendance** 
-  - **Face Recognition Technology** - Automated facial detection
+  - **Face Recognition Technology** - Automated facial detection using KNN algorithm
   - **Location-Based Verification** - GPS-enabled attendance
   - Real-time marking and session management
   - Attendance reports and analytics
@@ -333,7 +333,7 @@ An integrated **Student Campus Cloud Network** featuring a unified ecosystem wit
 - Role-based access control
 
 **2. Teacher Panel - Teaching & Content Tools**
-- **Smart Attendance** (Face Recognition + Location-Based)
+- **Smart Attendance** (Face Recognition using KNN + Location-Based)
 - **PaperVista** (AI Question Paper Generator)
 - **AutoSlideX** (AI PPT Presentation Generator)
 - E-Canteen Access
@@ -367,7 +367,7 @@ An integrated **Student Campus Cloud Network** featuring a unified ecosystem wit
 #### AI & ML Powered Features
 
 **Attendance & Recognition**
-- OCR-Based Attendance System
+- KNN-Based Face Recognition System
 - Face Recognition Technology (dlib, OpenCV)
 - Location-Based Verification
 - Automated absent marking
@@ -387,7 +387,6 @@ An integrated **Student Campus Cloud Network** featuring a unified ecosystem wit
 - Low attendance alerts
 
 **Document Processing**
-- OCR-powered document verification
 - Automated data extraction
 - Form processing
 
@@ -447,11 +446,12 @@ NEURO_CAMPUS/
 | Evaluate Students | ❌ | ✅ | ❌ | ❌ |
 
 #### Performance Metrics
-- **OCR Attendance Accuracy:** 92%+
-- **Average Load Time:** <2.5s
+- **Face Recognition Algorithm:** K-Nearest Neighbors (KNN)
+- **Attendance Recognition Accuracy:** 60%
+- **Average Load Time:** ~5 seconds
+- **API Response Time:** 10-20 seconds
 - **Mobile Lighthouse Score:** 95+
 - **System Uptime:** 99.9%
-- **User Satisfaction:** 4.8/5 ⭐
 
 </details>
 
@@ -779,7 +779,7 @@ ML:       face_recognition, OpenCV, dlib
 - **Authentication:** Secure Supabase-based login
 - **Password Management:** Forced reset on first login
 - **Profile Management:** Personal information updates
-- **Facial Recognition Attendance:** Automated attendance marking
+- **Facial Recognition Attendance:** Automated attendance marking with KNN
 - **Grade Management:** Student evaluation and grading
 - **Subject Assignment:** Course management
 - **Academic Calendar:** Schedule integration
@@ -802,7 +802,7 @@ Security:  bcryptjs 3.0
 
 ### 8. 🎓 Facial Recognition Attendance Backend
 
-**Intelligent attendance system** - Automated attendance with real-time facial recognition.
+**Intelligent attendance system** - Automated attendance with real-time facial recognition using KNN.
 
 <details>
 <summary><b>View Details</b></summary>
@@ -810,7 +810,7 @@ Security:  bcryptjs 3.0
 #### Core Functionality
 - **User Management:** Students, teachers, guests
 - **Face Enrollment:** Capture and store facial data
-- **Real-time Recognition:** Live facial detection
+- **Real-time Recognition:** Live facial detection using K-Nearest Neighbors (KNN) algorithm
 - **Session Management:** Class-based attendance sessions
 - **Automatic Absent Marking:** Auto-mark at session start
 - **Reports & Analytics:** Detailed attendance statistics
@@ -828,6 +828,7 @@ Security:  bcryptjs 3.0
 ```
 Framework:         FastAPI
 Face Recognition:  face_recognition 1.2.3, dlib, OpenCV 4.8
+Algorithm:         K-Nearest Neighbors (KNN)
 Database:          Supabase (PostgreSQL)
 Storage:           Cloudinary (Image CDN)
 ML Libraries:      NumPy 1.24, scikit-learn
@@ -844,6 +845,7 @@ fastapi==0.104.1
 supabase==2.3.0
 cloudinary==1.36.0
 uvicorn==0.24.0
+scikit-learn>=1.0.0
 ```
 
 </details>
@@ -981,7 +983,7 @@ Password: Kamal@123
 ```
 
 **Full Access To:**
-- Smart Attendance (Face + Location)
+- Smart Attendance (Face Recognition with KNN + Location)
 - PaperVista (Exam paper generator)
 - AutoSlideX (PPT generator)
 - E-Canteen ordering
@@ -1059,13 +1061,13 @@ Email: [Use your own email]
 |----------------|---------|-------------|----------|
 | **Google Gemini API** | Latest | Content generation, Q&A, optimization | Multiple |
 | **face_recognition** | 1.2.3 | Facial detection and recognition | Attendance |
+| **K-Nearest Neighbors (KNN)** | - | Face recognition classification algorithm | Attendance |
 | **OpenCV** | 4.8.1 | Computer vision processing | Attendance |
 | **dlib** | Latest | ML algorithms | Attendance |
 | **TensorFlow** | Latest | ML framework | NEURO CAMPUS |
 | **NumPy** | 1.24.3 | Numerical computations | Backend |
-| **scikit-learn** | Latest | ML utilities | Analytics |
+| **scikit-learn** | Latest | ML utilities (KNN implementation) | Analytics, Attendance |
 | **NLP** | - | Natural language processing | Content Gen |
-| **OCR** | - | Document processing | Attendance |
 
 ### Database & Cloud Services
 
@@ -1547,6 +1549,10 @@ vercel --prod
 |-------------------|-------------------|
 | <img src="https://github.com/user-attachments/assets/7cfa4a32-1b4f-41bd-92cf-28fc67773db3" width="400" alt="Teacher Management" /> | <img src="https://github.com/user-attachments/assets/1dbb6340-3894-4ba6-a8ae-7dea93075461" width="400" alt="Subject Assignment" /> |
 
+| Class Management | Analytics Dashboard |
+|-----------------|-------------------|
+| <img src="https://github.com/user-attachments/assets/7a2a5994-0ecf-4020-899a-c381fce86f3c" width="400" alt="Class Management" /> | <img src="https://github.com/user-attachments/assets/b91ce7e0-dd36-47dd-9b7f-69abb2494b29" width="400" alt="Analytics Dashboard" /> |
+
 ---
 
 ### 👨‍🏫 Teacher Panel
@@ -1559,7 +1565,7 @@ vercel --prod
 | Subject Management | Attendance Tracking |
 |-------------------|-------------------|
 | ![My Subjects](https://raw.githubusercontent.com/jiyanshuj/teacher-panel/main/images/My-subject.png) | ![Attendance](https://raw.githubusercontent.com/jiyanshuj/teacher-panel/main/images/Attendance.png) |
-| *Manage teaching subjects and classes* | *Real-time facial recognition attendance* |
+| *Manage teaching subjects and classes* | *Real-time facial recognition attendance with KNN* |
 
 ---
 
@@ -1569,11 +1575,19 @@ vercel --prod
 |------------------|-------------------|
 | <img src="https://github.com/user-attachments/assets/040a2402-1f9b-4f33-8070-68987e2d0225" width="400" alt="Student Dashboard" /> | <img src="https://github.com/user-attachments/assets/90616100-582b-4c8e-954d-522825355ee4" width="400" alt="Student Profile" /> |
 
+---
+
 ### 🍽️ E-Canteen System
 
-| Canteen Menu | Cart Management |
-|--------------|-----------------|
-| <img src="https://github.com/user-attachments/assets/99acd1a4-3c26-498d-ad4b-b12929e78f82" width="400" alt="Canteen Menu" /> | <img src="https://github.com/user-attachments/assets/a518e1dc-ceb3-470d-8e1d-e079fb571f33" width="400" alt="Cart Management" /> |
+| Canteen Menu | Order Placement |
+|--------------|----------------|
+| <img src="https://github.com/user-attachments/assets/99acd1a4-3c26-498d-ad4b-b12929e78f82" width="400" alt="Canteen Menu" /> | <img src="https://github.com/user-attachments/assets/ab9147f4-1708-4fec-bd8f-31d4622c59e3" width="400" alt="Order Placement" /> |
+
+| Mobile View | Cart Management |
+|-------------|-----------------|
+| <img src="https://github.com/user-attachments/assets/08f81fc0-741c-4085-8fdb-46da179daa79" width="400" alt="Mobile Canteen" /> | <img src="https://github.com/user-attachments/assets/a518e1dc-ceb3-470d-8e1d-e079fb571f33" width="400" alt="Cart Management" /> |
+
+---
 
 ### 📚 E-Library System
 
@@ -1581,11 +1595,49 @@ vercel --prod
 |------------------|--------------|
 | <img src="https://github.com/user-attachments/assets/bf4c10d7-0578-4ed3-97d2-731494665f0e" width="400" alt="Library Dashboard" /> | <img src="https://github.com/user-attachments/assets/b6a916ca-474f-4829-a65c-0cf91dc13ec0" width="400" alt="Book Catalog" /> |
 
+| Reading Interface | Book Details |
+|------------------|--------------|
+| <img src="https://github.com/user-attachments/assets/a4e893d0-5077-4b3f-a81e-6a0020cef449" width="400" alt="Reading Interface" /> | <img src="https://github.com/user-attachments/assets/3bc4f5ad-7d0b-4cc1-bfae-078ed219d206" width="400" alt="Book Details" /> |
+
+| Search & Filter | Library Stats |
+|-----------------|---------------|
+| <img src="https://github.com/user-attachments/assets/03a165cf-0a9a-4992-ab32-e7ae2209798e" width="400" alt="Search Filter" /> | <img src="https://github.com/user-attachments/assets/344c64f0-1c98-48a7-a315-20a7dffdc772" width="400" alt="Library Statistics" /> |
+
+---
+
+### 💰 Accounts & Payments
+
+| Payment Dashboard | Transaction History |
+|------------------|-------------------|
+| <img src="https://github.com/user-attachments/assets/5afc3f5f-7f30-426c-8d5a-8051a7b6cc77" width="400" alt="Payment Dashboard" /> | <img src="https://github.com/user-attachments/assets/90616100-582b-4c8e-954d-522825355ee4" width="400" alt="Transaction History" /> |
+
+---
+
+### 🧠 Aptitude & Testing
+
+| Aptitude Dashboard | Test Interface |
+|-------------------|----------------|
+| <img src="https://github.com/user-attachments/assets/f7ef006d-546f-4b60-a097-6d1e3d68e39d" width="400" alt="Aptitude Dashboard" /> | <img src="https://github.com/user-attachments/assets/12a70a2f-f202-4a4c-8575-84a72931ce59" width="400" alt="Test Interface" /> |
+
+| Results Analysis | Performance Tracking |
+|-----------------|---------------------|
+| <img src="https://github.com/user-attachments/assets/5fe0d510-965d-49e4-b74b-78c082b59958" width="400" alt="Results Analysis" /> | <img src="https://github.com/user-attachments/assets/90d4b048-0d11-4ea9-baef-f5f7fecfa07d" width="400" alt="Performance Tracking" /> |
+
+---
+
 ### 👥 Guest Panel
 
-| Guest Dashboard | Campus Tour |
-|-----------------|-------------|
-| <img src="https://github.com/user-attachments/assets/618e2341-28c9-4286-8628-ad27eefb4e54" width="400" alt="Guest Dashboard" /> | <img src="https://github.com/user-attachments/assets/e5b87f83-a460-41d5-ac2a-b7b9f30811ff" width="400" alt="Campus Tour" /> |
+| Guest Dashboard | University Information |
+|-----------------|----------------------|
+| <img src="https://github.com/user-attachments/assets/618e2341-28c9-4286-8628-ad27eefb4e54" width="400" alt="Guest Dashboard" /> | <img src="https://github.com/user-attachments/assets/023e1f13-99c7-47ca-9f22-fc8c55569ffb" width="400" alt="University Info" /> |
+
+| Campus Tour | Contact Information |
+|-------------|-------------------|
+| <img src="https://github.com/user-attachments/assets/e5b87f83-a460-41d5-ac2a-b7b9f30811ff" width="400" alt="Campus Tour" /> | <img src="https://github.com/user-attachments/assets/520bb723-3186-479a-8b0f-a83289d052d4" width="400" alt="Contact Info" /> |
+
+| Guest Services |
+|----------------|
+| <img src="https://github.com/user-attachments/assets/5ceff779-a61b-459f-89d7-63fef1dacb8c" width="400" alt="Guest Services" /> |
 
 ---
 
@@ -1662,6 +1714,14 @@ vercel --prod
 
 ### 🗄️ Database Structure
 
+| Students Table | Teachers Table |
+|----------------|----------------|
+| <img src="https://github.com/user-attachments/assets/e1c030b0-f634-46a2-a2e9-7ff0e4029972" width="400" alt="Students Database" /> | <img src="https://github.com/user-attachments/assets/fd3e65b5-83e2-4da1-b14b-c7d3793b1573" width="400" alt="Teachers Database" /> |
+
+| Subjects Table | Attendance Records |
+|----------------|-------------------|
+| <img src="https://github.com/user-attachments/assets/a5f82a02-3919-4308-abc0-70f4e62d0b7d" width="400" alt="Subjects Database" /> | <img src="https://github.com/user-attachments/assets/0fde6dde-cd81-43e4-b91a-7ffa18860e9f" width="400" alt="Attendance Records" /> |
+
 | Complete Database Schema |
 |-------------------------|
 | <img src="https://github.com/user-attachments/assets/5d19a8d0-71e1-45bd-bb58-e6e79e6feee7" width="600" alt="Complete Database Schema" /> |
@@ -1705,12 +1765,12 @@ vercel --prod
 
 | Metric | Value | Target |
 |--------|-------|--------|
-| **OCR Attendance Accuracy** | 92%+ | >90% ✅ |
-| **Average Load Time** | <2.5s | <3s ✅ |
+| **Face Recognition Algorithm** | KNN (K-Nearest Neighbors) | Classification-based ✅ |
+| **Attendance Recognition Accuracy** | 60% | >50% ✅ |
+| **Average Load Time** | ~5 seconds | <10s ✅ |
+| **API Response Time** | 10-20 seconds | <30s ✅ |
 | **Mobile Lighthouse Score** | 95+ | >90 ✅ |
 | **System Uptime** | 99.9% | >99% ✅ |
-| **User Satisfaction** | 4.8/5 ⭐ | >4.5 ✅ |
-| **API Response Time** | <500ms | <1s ✅ |
 
 ---
 
@@ -1719,7 +1779,7 @@ vercel --prod
 ### For Educational Institutions
 - Complete campus management system
 - Multi-panel role-based access control
-- Automated attendance with AI and facial recognition
+- Automated attendance with AI and facial recognition using KNN
 - Comprehensive student performance analytics
 - Financial management and fee tracking
 - Digital library and resource management
@@ -1729,7 +1789,7 @@ vercel --prod
 - AI-powered content creation tools
 - Automated exam paper generation
 - Presentation creation with AI
-- Facial recognition attendance system
+- Facial recognition attendance system with KNN algorithm
 - Grade management and evaluation
 - Student performance tracking
 - Digital library access
@@ -1860,15 +1920,6 @@ All projects are open source and available on GitHub:
 
 ---
 
-## 📞 Support & Documentation
-
-- 📧 **Email:** [support@neurocampus.com](mailto:jiyanshujain321@gmail.com)
-- 📖 **Documentation:** [docs.neurocampus.com](https://drive.google.com/file/d/1rI2AvFGCsfnrzOSU0oo0BIgSTo4OFwXD/view?usp=sharing)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/Yug-Bothra/NEURO_CAMPUS/issues)
-- 📱 **Social Media:** Follow us for updates
-
----
-
 ## 🎓 Academic Information
 
 ### Project Details
@@ -1918,6 +1969,7 @@ Special thanks to all who made this project possible:
 - **FastAPI Community** - Modern Python web framework
 - **OpenCV Contributors** - Computer vision library
 - **dlib Developers** - Machine learning toolkit
+- **scikit-learn Team** - Machine learning library (KNN implementation)
 - **Tailwind CSS Team** - Utility-first CSS framework
 
 ### Academic Support
@@ -1999,12 +2051,6 @@ If you find this project helpful, please consider:
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-
----
-
-### 📱 Connect With Us
-
-**GitHub** | **LinkedIn** | **Twitter** | **Discord**
 
 ---
 
